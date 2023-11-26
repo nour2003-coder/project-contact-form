@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 150px;
+    background-image: url(/Gradie_Sign_Up_Starter_Files_57545859d3/azert/Assets/Background.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*^^^^ covers the entire vertical height of the viewport on any device, */
+}
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    width: 800px;
+    height:550px;
+    
+}
+.gradie{
+    padding: 30px;
+    background-color: rgb(2, 40, 64);
+    border-radius: 8px 0px 0px 8px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titre1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.des{
+    color:rgb(211, 228, 244);
+    text-align: center;
+    font-size: 17px;
+}
+img{
+    position: absolute;
+   
+    bottom: 0;
+    height: 500px;
+    width: 400px;
+
+}
+.login{
+    padding: 30px 45px 40px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+div{
+    margin: 10px;
+   padding: 8px;
+}
+form ::placeholder{
+    height:30px;
+    width:80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    
+}
+#submit{
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(2, 40, 64);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.input{
+    margin: 5px 0px 5px;
+    height: 50px;
+    width: 300px;
+    padding: 7px;
+}
+
+.terms-label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+} 
+input[type='checkbox'] {
+   
+    appearance: none;
+    background: white;
+    outline: 1px solid #333;
+    border: 2px solid white;
+    border-radius: 1px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  input[type='checkbox']:checked {
+    background: #333;
+  }
+  @media screen and (max-width: 600px) { /* Adjust the max-width value to target specific phone screen sizes */
+    body{
+      margin: 0px;
+    background-image: url(/Gradie_Sign_Up_Starter_Files_57545859d3/azert/Assets/Background.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*^^^^ covers the entire vertical height of the viewport on any device, */
+     
+  }
+    .main{
+      display: grid;
+      margin: 0;
+      width: 400px;
+      height: 900px;
+    }
+    .gradie{
+      padding: 30px;
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border-radius: 8px 8px 0 0;
+      
+  }
+}
